@@ -1,0 +1,322 @@
+[
+  {
+    "qp_code": "ELE/Q5901",
+    "title": "Solar Panel Installation Technician",
+    "nsqf_level": 4,
+    "version": "2.0",
+    "sector": "Electronics & Renewable Energy",
+    "description": "Installs, tests, and maintains rooftop and ground-mounted solar photovoltaic systems in accordance with electrical and safety codes.",
+    "source": "MSDE NCVET Official Qualification Register",
+    "is_official": true,
+    "competencies": [
+      {
+        "nos_code": "ELE/N5901",
+        "title": "Site Inspection & Solar Panel Mounting Structure Setup",
+        "description": "Assess site tilt angle, shading, roof integrity, and assemble panel mounting structures safely.",
+        "weight": 1.0,
+        "criteria": [
+          {
+            "criterion_code": "PC1.1",
+            "description": "Inspect roof structure integrity and measure solar azimuth and tilt angles accurately using shadow tools.",
+            "max_score": 10.0,
+            "is_mandatory": true,
+            "is_safety_critical": false,
+            "rubric_definitions_json": {
+              "0": "Fails to inspect roof or measure angles correctly.",
+              "5": "Measures basic angles but omits shading analysis.",
+              "10": "Accurately measures tilt/azimuth and assesses roof integrity."
+            }
+          },
+          {
+            "criterion_code": "PC1.2",
+            "description": "Anchor mounting racks using weather-resistant fasteners with proper torque.",
+            "max_score": 10.0,
+            "is_mandatory": false,
+            "is_safety_critical": false,
+            "rubric_definitions_json": {
+              "0": "Loose bolts or improper anchoring.",
+              "5": "Secures frame but misses torque specifications.",
+              "10": "Flawlessly secures frames with proper torque and weatherproofing."
+            }
+          },
+          {
+            "criterion_code": "PC1.3",
+            "description": "Use personal protective equipment (PPE) including safety harness while working at height.",
+            "max_score": 10.0,
+            "is_mandatory": true,
+            "is_safety_critical": true,
+            "rubric_definitions_json": {
+              "0": "Fails to wear safety harness at height (SAFETY CRITICAL VIOLATION).",
+              "5": "Wears harness loosely or late in the task.",
+              "10": "Strictly adheres to height safety PPE protocol throughout."
+            }
+          }
+        ]
+      },
+      {
+        "nos_code": "ELE/N5902",
+        "title": "DC Electrical Wiring & Inverter Connection",
+        "description": "Connect solar modules in string series/parallel, wire DC disconnects, and connect to grid-tied/off-grid inverters.",
+        "weight": 1.0,
+        "criteria": [
+          {
+            "criterion_code": "PC2.1",
+            "description": "Wire PV module junction boxes using correct MC4 connectors and polarity checks.",
+            "max_score": 10.0,
+            "is_mandatory": true,
+            "is_safety_critical": true,
+            "rubric_definitions_json": {
+              "0": "Reverse polarity connection or exposed bare wire.",
+              "5": "Correct polarity but loose crimps on MC4 connectors.",
+              "10": "Perfect polarity verification, clean crimping, and insulation."
+            }
+          },
+          {
+            "criterion_code": "PC2.2",
+            "description": "Install surge protection devices (SPD) and earthing ground pits.",
+            "max_score": 10.0,
+            "is_mandatory": true,
+            "is_safety_critical": false,
+            "rubric_definitions_json": {
+              "0": "No earthing pit connected or SPD omitted.",
+              "5": "Earthing connected but resistance not measured.",
+              "10": "SPD installed and earth pit resistance verified under 5 ohms."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "qp_code": "CON/Q0103",
+    "title": "Mason Tiling",
+    "nsqf_level": 3,
+    "version": "1.0",
+    "sector": "Construction",
+    "description": "Lays ceramic, vitrified, and stone tiles on floors and walls with precise plumb, alignment, level, and grouting.",
+    "source": "MSDE NCVET Official Qualification Register",
+    "is_official": true,
+    "competencies": [
+      {
+        "nos_code": "CON/N0105",
+        "title": "Surface Preparation & Mortar Bedding",
+        "description": "Prepare screed surface, clean dust, mix tile adhesive / mortar to required consistency.",
+        "weight": 1.0,
+        "criteria": [
+          {
+            "criterion_code": "PC1.1",
+            "description": "Clean surface substrate and check floor slope using spirit level.",
+            "max_score": 10.0,
+            "is_mandatory": true,
+            "is_safety_critical": false,
+            "rubric_definitions_json": {
+              "0": "Lays mortar over dusty, un-level substrate.",
+              "5": "Cleans substrate but slope check is imprecise.",
+              "10": "Thorough substrate prep and exact spirit level slope verification."
+            }
+          },
+          {
+            "criterion_code": "PC1.2",
+            "description": "Mix polymer-modified adhesive mortar to lump-free consistency.",
+            "max_score": 10.0,
+            "is_mandatory": false,
+            "is_safety_critical": false,
+            "rubric_definitions_json": {
+              "0": "Dry lumps or watery consistency.",
+              "5": "Acceptable mix but works past pot life.",
+              "10": "Homogeneous lump-free mix adhering to specified water ratio."
+            }
+          }
+        ]
+      },
+      {
+        "nos_code": "CON/N0106",
+        "title": "Tile Laying, Alignment & Grouting",
+        "description": "Cut tiles, position with spacers, tap into place, check lip page, apply epoxy grout.",
+        "weight": 1.0,
+        "criteria": [
+          {
+            "criterion_code": "PC2.1",
+            "description": "Cut vitrified tiles cleanly using manual tile cutter without edge chipping.",
+            "max_score": 10.0,
+            "is_mandatory": true,
+            "is_safety_critical": false,
+            "rubric_definitions_json": {
+              "0": "Severe edge cracking or broken tiles.",
+              "5": "Minor chipping on cuts.",
+              "10": "Clean straight cut with zero edge chipping."
+            }
+          },
+          {
+            "criterion_code": "PC2.2",
+            "description": "Maintain 2mm uniform grout joints using spacers and verify zero lippage.",
+            "max_score": 10.0,
+            "is_mandatory": true,
+            "is_safety_critical": false,
+            "rubric_definitions_json": {
+              "0": "Uneven joint width and noticeable height lippage.",
+              "5": "Uniform joints but minor lippage detected.",
+              "10": "Impeccable spacing and perfectly flush surface."
+            }
+          },
+          {
+            "criterion_code": "PC2.3",
+            "description": "Wear safety goggles and gloves while operating electrical tile cutter.",
+            "max_score": 10.0,
+            "is_mandatory": true,
+            "is_safety_critical": true,
+            "rubric_definitions_json": {
+              "0": "Operates power cutter without eye protection (SAFETY CRITICAL).",
+              "5": "Wears goggles intermittently.",
+              "10": "Full eye and hand protection used continuously."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "qp_code": "ELE/Q1401",
+    "title": "Automotive Electrician",
+    "nsqf_level": 4,
+    "version": "1.0",
+    "sector": "Automotive",
+    "description": "Diagnoses, repairs, and rewires electrical components, alternators, starters, ignition, and battery management systems in motor vehicles.",
+    "source": "MSDE NCVET Official Qualification Register",
+    "is_official": true,
+    "competencies": [
+      {
+        "nos_code": "ELE/N1401",
+        "title": "Vehicle Electrical System Diagnosis",
+        "description": "Use digital multimeter, OBD-II scanner, and wiring schematics to locate short circuits, blown fuses, and voltage drops.",
+        "weight": 1.0,
+        "criteria": [
+          {
+            "criterion_code": "PC1.1",
+            "description": "Read wiring circuit diagrams and correctly measure DC voltage and continuity across relays.",
+            "max_score": 10.0,
+            "is_mandatory": true,
+            "is_safety_critical": false,
+            "rubric_definitions_json": {
+              "0": "Cannot read schematic or sets multimeter to wrong scale.",
+              "5": "Reads basic schematic but takes flawed voltage drop readings.",
+              "10": "Accurately interprets schematic and isolates open/short fault."
+            }
+          },
+          {
+            "criterion_code": "PC1.2",
+            "description": "Disconnect battery negative terminal prior to working on starter/alternator high-current wiring.",
+            "max_score": 10.0,
+            "is_mandatory": true,
+            "is_safety_critical": true,
+            "rubric_definitions_json": {
+              "0": "Fails to disconnect battery negative before high-current work (SAFETY CRITICAL SHORT RISK).",
+              "5": "Disconnects positive terminal first.",
+              "10": "Strictly isolates negative terminal prior to repair."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "qp_code": "SSC/Q2212",
+    "title": "Domestic Data Entry Operator",
+    "nsqf_level": 4,
+    "version": "1.0",
+    "sector": "IT-ITeS",
+    "description": "Maintains database records, enters textual and numerical data accurately, formats documents, and enforces data privacy.",
+    "source": "MSDE NCVET Official Qualification Register",
+    "is_official": true,
+    "competencies": [
+      {
+        "nos_code": "SSC/N2212",
+        "title": "Data Entry Operation & Accuracy Verification",
+        "description": "Operate keyboard efficiently, enter tabular records in spreadsheet, verify data integrity, format outputs.",
+        "weight": 1.0,
+        "criteria": [
+          {
+            "criterion_code": "PC1.1",
+            "description": "Demonstrate touch typing speed of at least 35 WPM with 95% accuracy.",
+            "max_score": 10.0,
+            "is_mandatory": true,
+            "is_safety_critical": false,
+            "rubric_definitions_json": {
+              "0": "< 20 WPM or error rate > 10%.",
+              "5": "25-30 WPM with minor typos.",
+              "10": ">= 35 WPM with 98%+ accuracy."
+            }
+          },
+          {
+            "criterion_code": "PC1.2",
+            "description": "Perform data validation, formula calculations (SUM, AVERAGE, VLOOKUP) in spreadsheet.",
+            "max_score": 10.0,
+            "is_mandatory": true,
+            "is_safety_critical": false,
+            "rubric_definitions_json": {
+              "0": "Unable to write basic spreadsheet formulas.",
+              "5": "Uses basic SUM but fails complex lookup formulas.",
+              "10": "Correctly applies formulas, sorting, and data validation rules."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "qp_code": "CSC/Q0204",
+    "title": "Welder - Structural",
+    "nsqf_level": 4,
+    "version": "2.0",
+    "sector": "Capital Goods & Manufacturing",
+    "description": "Performs Shielded Metal Arc Welding (SMAW) and MIG welding on carbon steel plates and structural shapes in 1G, 2G, 3G positions.",
+    "source": "MSDE NCVET Official Qualification Register",
+    "is_official": true,
+    "competencies": [
+      {
+        "nos_code": "CSC/N0204",
+        "title": "SMAW / MIG Welding Operation & Bead Quality",
+        "description": "Prepare joint edges, set welding current/voltage, strike arc, deposit uniform bead, inspect for undercut/porosity.",
+        "weight": 1.0,
+        "criteria": [
+          {
+            "criterion_code": "PC1.1",
+            "description": "Set arc welding current appropriately according to electrode diameter (e.g. E6013, 3.15mm).",
+            "max_score": 10.0,
+            "is_mandatory": true,
+            "is_safety_critical": false,
+            "rubric_definitions_json": {
+              "0": "Incorrect current causing electrode sticking or burn-through.",
+              "5": "Sets current with minor spatter.",
+              "10": "Optimal current setting resulting in smooth arc stability."
+            }
+          },
+          {
+            "criterion_code": "PC1.2",
+            "description": "Deposit uniform weld bead without slag inclusion, undercut, or excessive porosity.",
+            "max_score": 10.0,
+            "is_mandatory": true,
+            "is_safety_critical": false,
+            "rubric_definitions_json": {
+              "0": "Heavy slag inclusions or severe weld cracking.",
+              "5": "Sound weld but slight uneven ripples.",
+              "10": "Flawless bead geometry, full penetration, zero surface defects."
+            }
+          },
+          {
+            "criterion_code": "PC1.3",
+            "description": "Use auto-darkening welding helmet, leather apron, and welding gloves; ensure fume extraction.",
+            "max_score": 10.0,
+            "is_mandatory": true,
+            "is_safety_critical": true,
+            "rubric_definitions_json": {
+              "0": "Strikes arc without welding helmet (SAFETY CRITICAL FLASH RISK).",
+              "5": "Uses helmet but lacks leather sleeve protection.",
+              "10": "Full protective clothing and eye shade used continuously."
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
